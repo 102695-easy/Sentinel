@@ -25,6 +25,33 @@ An intelligent, web-based surveillance platform with real-time GPU-accelerated o
 
 SENTINEL is a comprehensive surveillance management system that combines cutting-edge computer vision (YOLO11) with intelligent rule-based alerting. The system processes real-time video feeds from IP cameras, detects objects of interest, applies context-aware rules, and alerts operators to anomalies.
 
+## ⚡ Quickstart
+```bash
+# 1. Clone the repo
+git clone https://github.com/SentinEliX-cmd/Sentinel.git
+cd Sentinel
+
+# 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Install PyTorch with CUDA
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# 5. Initialize database
+python apply_clean_database.py
+
+# 6. Run
+python backend.py
+```
+
+Open `http://127.0.0.1:5000` — login: `admin / admin123`
+
+---
+
 ### Core Capabilities:
 - **Real-time Detection**: GPU-accelerated YOLO11 inference at <15ms per frame
 - **Object Tracking**: Persistent identification of persons, vehicles, and suspicious items
