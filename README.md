@@ -25,6 +25,8 @@ An intelligent, web-based surveillance platform with real-time GPU-accelerated o
 
 SENTINEL is a comprehensive surveillance management system that combines cutting-edge computer vision (YOLO11) with intelligent rule-based alerting. The system processes real-time video feeds from IP cameras, detects objects of interest, applies context-aware rules, and alerts operators to anomalies.
 
+---
+
 ## ⚡ Quickstart
 ```bash
 # 1. Clone the repo
