@@ -2,8 +2,7 @@
 
 An intelligent, web-based surveillance platform with real-time GPU-accelerated object detection, context-aware anomaly alerting, and comprehensive forensic audit logging. Designed for urban neighbourhood surveillance with role-based access control and advanced rule configuration.
 
-**Author**: Eli Martin Kipkorir | **Student ID**: DCF-01-0171/2025 | **Institution**: Zetech University
-
+**Author**: Eli Kipkorir 
 ---
 
 ## Table of Contents
